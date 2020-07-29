@@ -13,7 +13,7 @@ const forecast = (lat,long,callback) => {
         }
         else
         {
-            callback(undefined,`${body.current.weather_descriptions[0]}. It is currently ${body.current.temperature} degree Celsius temperature. There is ${body.current.humidity} humidity today.`)
+            callback(undefined,`Observation Time: ${body.current.observation_time}. ${body.current.weather_descriptions[0]}. It is currently ${body.current.temperature} degree Celsius temperature. It feels like ${body.current.feelslike} degrees. There is ${body.current.humidity}% humidity. Wind direction is ${body.current.wind_dir}.`)
         }
     })
 }
