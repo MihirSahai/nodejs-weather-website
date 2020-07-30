@@ -1,3 +1,3 @@
 # nodejs-weather-website
-It is website with a backend based on nodejs.
-It uses 2 api's ,weatherstack(for weather data) and mapbox(for location data) and chains both api's to work together.
+It is a website with backend based on nodejs.
+It uses 2 api's ,weatherstack(for weather data) and mapbox(for location data) and chains both the api's to work together.
